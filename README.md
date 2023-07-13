@@ -1,288 +1,293 @@
-# Python Course Repository
+# Curso de Python
 
-Welcome to the Python Course repository! This free repository is designed to provide a comprehensive Python programming course for beginners. 
-Whether you're new to programming or have some experience, this course will help you learn and improve your Python skills.
+¡Bienvenido al curso de Python! Este repositorio gratuito está diseñado para proporcionar un curso completo de programación de Python para principiantes.
+Ya sea nuevo en programación o tenga algo de experiencia, este curso lo ayudará a aprender y mejorar sus habilidades con Python.
 
-**Happy coding and enjoy the Python course!**
-
-
-## Table of Contents
-- [Contributing](#contributing)
-- [About Python](#about-python)
-- [Getting Started](#getting-started)
-- [Course Overview](#course-overview)
-- [Course Structure](#course-structure)
+**¡Feliz codificación y disfruta del curso Python!**
 
 
-## Contributing
+## Tabla de contenido
+- [Contribuyendo](#contribuyendo)
+- [Acerca de Python](#acerca-de-python)
+- [Primeros pasos](#primeros-pasos)
+- [Resumen del curso](#resumen-del-curso)
+- [Estructura del curso](#estructura-del-curso)
 
-We welcome contributions to this free Python course. If you find any issues, have suggestions for improvements, 
-or want to add new content, please feel free to open an issue. Your contributions will help make this course even better for future learners.
 
-Support me to create more educational materials!
+## Contribuyendo
 
-<p align="center">
-    <a href="https://paypal.me/sergifelipribas"><img src="./Images/paypal_lg.png" alt="Paypal Logo" style="width:10%; margin-right: 20px;"></a>
-    <a href="https://github.com/sergif-github"><img src="./Images/github_lg.png" alt="Github Logo" style="width:10%; margin-right: 20px;"></a>
-    <a href="https://www.linkedin.com/in/sergifelipribas/"><img src="./Images/linkedin_lg.png" alt="Linkedin Logo" style="width:10%;"></a>
+Damos la bienvenida a las contribuciones a este curso gratuito de Python. Si encuentra algún problema, tenga sugerencias para mejorar,
+o desea agregar contenido nuevo, no dude en abrir un problema. Sus contribuciones ayudarán a que este curso sea aún mejor para los futuros estudiantes.
+
+¡Apóyenme para crear más materiales educativos!
+
+<p align="centro">
+     <a href="https://paypal.me/sergifelipribas"><img src="./Images/paypal_lg.png" alt="Paypal Logo" style="width:10%; margin-right: 20px;" ></a>
+     <a href="https://github.com/sergif-github"><img src="./Images/github_lg.png" alt="Github Logo" style="width:10%; margin-right: 20px ;"></a>
+     <a href="https://www.linkedin.com/in/sergifelipribas/"><img src="./Images/linkedin_lg.png" alt="Logotipo de Linkedin" style="width:10%;"> </a>
 </p>
 
 
-## About Python
+## Acerca de Python
 
-Python is a versatile and widely used programming language that bears a close resemblance to human language. Its similarity to natural language makes it easy to learn and use, appealing to beginners and experienced developers alike. Python finds applications in various industries and is employed for web development, desktop software, system administration, and the creation of machine learning libraries. It has gained significant popularity in the data science and machine learning community.
+Python es un lenguaje de programación versátil y ampliamente utilizado que se parece mucho al lenguaje humano. Su similitud con el lenguaje natural hace que sea fácil de aprender y usar, atrayendo tanto a principiantes como a desarrolladores experimentados. Python encuentra aplicaciones en diversas industrias y se emplea para el desarrollo web, software de escritorio, administración de sistemas y la creación de bibliotecas de aprendizaje automático. Ha ganado una popularidad significativa en la comunidad de ciencia de datos y aprendizaje automático.
 
-Python is a high-level, interpreted programming language with cross-platform capabilities. Guido van Rossum developed it in 1989, and since then, it has become a staple for diverse software development tasks. Python enables the creation of web applications, desktop software, data analysis tools, artificial intelligence implementations, and automation scripts. Its appeal lies in its simple and readable syntax, extensive library ecosystem, and the wealth of available resources for learning.
+Python es un lenguaje de programación interpretado de alto nivel con capacidades multiplataforma. Guido van Rossum lo desarrolló en 1989 y, desde entonces, se ha convertido en un elemento básico para diversas tareas de desarrollo de software. Python permite la creación de aplicaciones web, software de escritorio, herramientas de análisis de datos, implementaciones de inteligencia artificial y scripts de automatización. Su atractivo radica en su sintaxis simple y legible, su extenso ecosistema de biblioteca y la gran cantidad de recursos disponibles para el aprendizaje.
 
-As an interpreted language, Python requires an interpreter to read, interpret, and execute the source code. In contrast to compiled languages like C or C++, which transform code into machine language using a compiler, Python's interpreter provides flexibility. However, interpreted languages generally tend to be slower and less secure than their compiled counterparts. Python comes with its own default interpreter known as the "Python interpreter."
+Como lenguaje interpretado, Python requiere un intérprete para leer, interpretar y ejecutar el código fuente. A diferencia de los lenguajes compilados como C o C++, que transforman el código en lenguaje de máquina mediante un compilador, el intérprete de Python brinda flexibilidad. Sin embargo, los lenguajes interpretados generalmente tienden a ser más lentos y menos seguros que sus contrapartes compilados. Python viene con su propio intérprete predeterminado conocido como "intérprete de Python".
 
-Python code can be executed from the command line, and many integrated development environments (IDEs) utilize the default Python interpreter. Additionally, alternative interpreters like IPython and Jupyter offer enhanced interactivity and environments resembling a command-line shell or a notebook interface. Popular IDEs for Python development include PyCharm, Spyder, Eclipse with the PyDev plugin, Visual Studio Code, and Jupyter Notebook. Notable libraries in the Python ecosystem include NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow, Keras, and PyTorch.
+El código de Python se puede ejecutar desde la línea de comandos y muchos entornos de desarrollo integrados (IDE) utilizan el intérprete de Python predeterminado. Además, los intérpretes alternativos como IPython y Jupyter ofrecen interactividad mejorada y entornos que se asemejan a un shell de línea de comandos o una interfaz de computadora portátil. Los IDE populares para el desarrollo de Python incluyen PyCharm, Spyder, Eclipse con el complemento PyDev, Visual Studio Code y Jupyter Notebook. Las bibliotecas notables en el ecosistema de Python incluyen NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow, Keras y PyTorch.
 
-## Getting Started
+## Primeros pasos
 
-In this course, you have the flexibility to choose between using JupyterLab or an IDE with a Python installation, or opting for the convenience
-of Google Colab without any local installations. Both options provide powerful environments for writing, executing, and collaborating on code.
+En este curso, tiene la flexibilidad de elegir entre usar JupyterLab o un IDE con una instalación de Python, u optar por la conveniencia
+de Google Colab sin ninguna instalación local. Ambas opciones proporcionan entornos potentes para escribir, ejecutar y colaborar en el código.
 
-If you already have Python installed and prefer to work locally, JupyterLab or an IDE will offer a seamless coding experience. On the other hand,
-if you prefer a cloud-based environment, Google Colab will provide you with the necessary tools and resources.
+Si ya tiene instalado Python y prefiere trabajar localmente, JupyterLab o un IDE le ofrecerán una experiencia de codificación perfecta. Por otro lado,
+si prefiere un entorno basado en la nube, Google Colab le proporcionará las herramientas y los recursos necesarios.
 
-Feel free to choose the option that best suits your preferences and needs. Throughout the course, we will provide instructions and examples
-that are compatible with both setups.
+Siéntase libre de elegir la opción que mejor se adapte a sus preferencias y necesidades. A lo largo del curso, proporcionaremos instrucciones y ejemplos.
+que son compatibles con ambas configuraciones.
 
-Now that you have the necessary information to get started, let's embark on this exciting learning journey together!
-
-
-### Python Installation (for JupyterLab and IDEs)
-
-If you prefer using an IDE or JupyterLab on your local machine, it's essential to have Python installed. 
-Python serves as the foundation for running JupyterLab and executing Python code. 
-
-Follow these steps to install Python:
-
-1. Check if Python is already installed by running ```python --version``` command.
-    If Python is already installed, you will see the installed version. If not, continue to the next step.
-
-2. Install Python
-    To install Python, visit the official Python website at [python.org](https://www.python.org/). Choose the appropriate installer 
-for your operating system (Windows, macOS, or Linux) and follow the installation instructions.
-
-    During the installation, make sure to select the option to add Python to your system's PATH variable. This will make it easier to access Python
-from the command prompt or terminal.
+Ahora que tiene la información necesaria para comenzar, ¡embarquémonos juntos en este emocionante viaje de aprendizaje!
 
 
-### Choose between Integrated Development Environments (IDEs)
+### Instalación de Python (para JupyterLab e IDE)
 
-Integrated Development Environments (IDEs) provide a comprehensive environment for writing, editing, and running Python code.
-IDEs offer features such as code completion, debugging tools, and project management capabilities, making them popular among 
-developers for efficient and productive coding.
+Si prefiere usar un IDE o JupyterLab en su máquina local, es esencial tener instalado Python.
+Python sirve como base para ejecutar JupyterLab y ejecutar el código de Python.
 
-- **Visual Studio Code (VS Code)**
+Siga estos pasos para instalar Python:
 
-    Visual Studio Code, commonly referred to as VS Code, is a popular open-source code editor developed by Microsoft. 
-It offers a wide range of extensions and a big community, making it a powerful choice for Python development.
+1. Compruebe si Python ya está instalado ejecutando el comando ```python --version```.
+     Si Python ya está instalado, verá la versión instalada. Si no, continua al siguiente paso.
 
-    Install VS Code from the official website (https://code.visualstudio.com/).
+2. Instalar Python
+     Para instalar Python, visite el sitio web oficial de Python en [python.org](https://www.python.org/). Elija el instalador apropiado
+para su sistema operativo (Windows, macOS o Linux) y siga las instrucciones de instalación.
+
+     Durante la instalación, asegúrese de seleccionar la opción para agregar Python a la variable PATH de su sistema. Esto facilitará el acceso a Python.
+desde el símbolo del sistema o terminal.
+
+
+### Elija entre entornos de desarrollo integrado (IDE)
+
+Los entornos de desarrollo integrados (IDE) proporcionan un entorno completo para escribir, editar y ejecutar código de Python.
+Los IDE ofrecen características como finalización de código, herramientas de depuración y capacidades de gestión de proyectos, lo que los hace populares entre
+desarrolladores para una codificación eficiente y productiva.
+
+- **Código de Visual Studio (Código VS)**
+
+     Visual Studio Code, comúnmente conocido como VS Code, es un popular editor de código abierto desarrollado por Microsoft.
+Ofrece una amplia gama de extensiones y una gran comunidad, lo que lo convierte en una opción poderosa para el desarrollo de Python.
+
+     Instale VS Code desde el sitio web oficial (https://code.visualstudio.com/).
 
 
 - **PyCharm**
 
-    PyCharm is a professional Python IDE developed by JetBrains. It offers a rich set of features specifically designed for Python development,
-including intelligent code completion, debugging tools, and support for various frameworks.
+     PyCharm es un IDE de Python profesional desarrollado por JetBrains. Ofrece un amplio conjunto de características diseñadas específicamente para el desarrollo de Python,
+incluyendo finalización de código inteligente, herramientas de depuración y soporte para varios marcos.
 
-  Download and install PyCharm Community Edition (free) or PyCharm Professional Edition (commercial) from the JetBrains website (https://www.jetbrains.com/pycharm/).
+   Descargue e instale PyCharm Community Edition (gratis) o PyCharm Professional Edition (comercial) desde el sitio web de JetBrains (https://www.jetbrains.com/pycharm/).
 
 
-- **Atom**
+- **Átomo**
 
-    Atom is a customizable text editor developed by GitHub. It offers a vast ecosystem of packages and themes, 
-making it a popular choice for Python developers who prefer flexibility and extensibility.
+     Atom es un editor de texto personalizable desarrollado por GitHub. Ofrece un vasto ecosistema de paquetes y temas,
+por lo que es una opción popular para los desarrolladores de Python que prefieren la flexibilidad y la extensibilidad.
 
-    Install Atom from the official website (https://atom.io/).
+     Instale Atom desde el sitio web oficial (https://atom.io/).
 
-These are just a few examples of the many IDEs available for Python development. Each IDE has its own set of features and workflows,
-so feel free to explore and choose the one that best fits your needs and preferences.
+Estos son solo algunos ejemplos de los muchos IDE disponibles para el desarrollo de Python. Cada IDE tiene su propio conjunto de características y flujos de trabajo,
+así que siéntase libre de explorar y elegir el que mejor se adapte a sus necesidades y preferencias.
 
-By using an IDE, you can streamline your Python development process, benefit from advanced code editing capabilities, 
-and boost your productivity as a Python programmer. You will need to install extensions to work with .ipynb files used in this course.
-On the other hand, you can use JupyterLab or Google Cloab.
+Al usar un IDE, puede optimizar su proceso de desarrollo de Python, beneficiarse de las capacidades avanzadas de edición de código,
+y aumente su productividad como programador de Python. Deberá instalar extensiones para trabajar con los archivos .ipynb utilizados en este curso.
+Por otro lado, puedes usar JupyterLab o Google Cloab.
 
 - **JupyterLab**
 
-    JupyterLab is a powerful interactive development environment that allows you to create and run Jupyter notebooks, code, and markdown files. 
+     JupyterLab es un potente entorno de desarrollo interactivo que le permite crear y ejecutar cuadernos, códigos y archivos de rebajas de Jupyter.
 
-    Install JupyterLab with ```pip install jupyterlab``` command. Wait for the installation to complete. 
-Once done, JupyterLab should be installed on your system.
+     Instale JupyterLab con el comando ```pip install jupyterlab```. Espere a que se complete la instalación.
+Una vez hecho esto, JupyterLab debe instalarse en su sistema.
 
-    Launch JupyterLab by running the following command: ```jupyter lab```. This will open JupyterLab in your default web browser.
+     Inicie JupyterLab ejecutando el siguiente comando: ```jupyter lab```. Esto abrirá JupyterLab en su navegador web predeterminado.
 
-### Google Colab (No Installations Required)
+### Google Colab (No se requieren instalaciones)
 
-Alternatively, if you prefer a hassle-free setup without any installations on your local machine, you can utilize Google Colab. 
-Google Colab provides a cloud-based environment where you can create, run, and collaborate on Jupyter notebooks without the need for local installations.
-Google Colab provides pre-installed libraries, including Python and popular data science packages like NumPy and Pandas. You can directly write
-and execute code in the notebook cells.
+Alternativamente, si prefiere una configuración sin problemas sin ninguna instalación en su máquina local, puede utilizar Google Colab.
+Google Colab proporciona un entorno basado en la nube en el que puede crear, ejecutar y colaborar en portátiles Jupyter sin necesidad de instalaciones locales.
+Google Colab proporciona bibliotecas preinstaladas, incluidos Python y paquetes de ciencia de datos populares como NumPy y Pandas. Puedes escribir directamente
+y ejecutar código en las celdas del cuaderno.
 
-To access Google Colab:
+Para acceder a Google Colab:
 
-1. Open Google Colab: Visit the Google Colab website using any web browser.
-2. Create a New Notebook: Click on "New Notebook" to create a new blank notebook or choose from existing templates.
-
-
-### Files used
-
-In this course, we have chosen .ipynb files as the primary format to provide an interactive and comprehensive learning experience. 
-The course material, including code examples, exercises, and project templates, will be provided as Jupyter Notebooks (.ipynb files).
-
-You can open and run the .ipynb files using JupyterLab, Jupyter Notebook, or other compatible environments. These tools offer an interactive
-interface where you can execute code cells, modify the code, add your own notes, and visualize the results.
-
-By using .ipynb files, we aim to provide an engaging and hands-on learning experience that combines code, documentation, and visualization,
-allowing you to grasp concepts more effectively and apply them in practical scenarios.
+1. Abra Google Colab: Visite el sitio web de Google Colab utilizando cualquier navegador web.
+2. Crear un nuevo cuaderno: haga clic en "Nuevo cuaderno" para crear un nuevo cuaderno en blanco o elegir entre las plantillas existentes.
 
 
-## Course Overview
+### Archivos utilizados
 
-This Python course is designed to introduce you to the fundamentals of programming using the Python programming language. 
-The course covers a wide range of topics, starting from the basics and gradually progressing to more advanced concepts.
+En este curso, hemos elegido archivos .ipynb como formato principal para brindar una experiencia de aprendizaje interactiva e integral.
+El material del curso, incluidos los ejemplos de código, los ejercicios y las plantillas de proyectos, se proporcionará como Jupyter Notebooks (archivos .ipynb).
 
-Here are some of the key topics covered in this course:
-- Introduction to Python
-- Basic variables and data types
-- Basic operators
-- Control flow statements
-- Loops
-- Methods and functions
-- Object-oriented programming (OOP)
-- Exception handling
-- Modules and packages
-- File handling
-- Additional Python modules and libraries
-- Advanced concepts
-- Testing and debugging
+Puede abrir y ejecutar los archivos .ipynb mediante JupyterLab, Jupyter Notebook u otros entornos compatibles. Estas herramientas ofrecen una forma interactiva
+interfaz donde puede ejecutar celdas de código, modificar el código, agregar sus propias notas y visualizar los resultados.
 
-The course is structured in a way that each topic builds upon the previous ones, providing a logical progression of learning. 
-Each topic includes theory explanations, practical examples, and exercises to reinforce your understanding.
-
-The goal of this course is to cover foundational aspects of Python programming with an emphasis on script writing,
-basic data manipulation, and program organization.  By the end of this course, students should be able to start writing 
-useful Python programs on their own or be able to understand and modify Python code written by their coworkers.
+Mediante el uso de archivos .ipynb, nuestro objetivo es proporcionar una experiencia de aprendizaje práctica y atractiva que combine código, documentación y visualización.
+lo que le permite comprender los conceptos de manera más efectiva y aplicarlos en escenarios prácticos.
 
 
-## Course Structure
+## Resumen del curso
 
-The course is organized into different modules, each covering a specific topic. 
+Este curso de Python está diseñado para presentarle los fundamentos de la programación utilizando el lenguaje de programación Python.
+El curso cubre una amplia gama de temas, comenzando desde lo básico y progresando gradualmente hacia conceptos más avanzados.
 
-You can start with the first module and progress through the course at your own pace. Make sure to read the lecture notes, 
-try out the examples, and complete the exercises to solidify your knowledge.
+Estos son algunos de los temas clave tratados en este curso:
+- Introducción a Python
+- Variables básicas y tipos de datos.
+- Operadores básicos
+- Declaraciones de flujo de control
+- Bucles
+- Métodos y funciones
+- Programación orientada a objetos (POO)
+- Manejo de excepciones
+- Módulos y paquetes
+- Manejo de archivos
+- Módulos y bibliotecas de Python adicionales
+- Conceptos avanzados
+- Pruebas y depuración.
 
-Inside the repository, you'll find the following structure:
+El curso está estructurado de manera que cada tema se basa en los anteriores, proporcionando una progresión lógica de aprendizaje.
+Cada tema incluye explicaciones teóricas, ejemplos prácticos y ejercicios para reforzar su comprensión.
 
-**[Module 0: Introduction to Python](./00-Introduction_to_Python/)**
-- [Introduction to Python](./00-Introduction_to_Python/01_introduction_python.ipynb)
-- [Running Python programs](./00-Introduction_to_Python/02_running_python_programs.ipynb)
-- [Basic syntax and indentation](./00-Introduction_to_Python/03_basic_syntax_and_identation.ipynb)
-- [Printing and commenting code](./00-Introduction_to_Python/04_printing_and_commenting_code.ipynb)
-- [User input](./00-Introduction_to_Python/05_user_input.ipynb)
-- [Exercises](./00-Introduction_to_Python/06_exercisies.ipynb)
-- [Solutions](./00-Introduction_to_Python/07_solutions.ipynb)
+El objetivo de este curso es cubrir los aspectos fundamentales de la programación de Python con énfasis en script wescritura,
+manipulación básica de datos y organización de programas. Al final de este curso, los estudiantes deberían poder comenzar a escribir
+programas útiles de Python por su cuenta o ser capaz de comprender y modificar el código de Python escrito por sus compañeros de trabajo.
 
-**[Module 1: Variables and Data Types](./01-Variables_and_data_types/)**
-- [Variables and assignments](./01-Variables_and_data_types/01_variables_and_assignments.ipynb)
-- [Numeric data types (int, float)](./01-Variables_and_data_types/02_numeric_data_types.ipynb)
-- [Strings and string manipulation](./01-Variables_and_data_types/03_string_and_manipulation.ipynb)
-- [Boolean data type](./01-Variables_and_data_types/04_boolean_data_types.ipynb)
-- [Type conversion and casting](./01-Variables_and_data_types/05_type_conversion_and_casting.ipynb)
-- [Working with collections (lists, tuples, sets, dictionaries)](./01-Variables_and_data_types/06_collections.ipynb)
-- [Exercises](./01-Variables_and_data_types/07_exercisies.ipynb)
-- [Solutions](./01-Variables_and_data_types/08_solutions.ipynb)
 
-**[Module 2: Operators](./02-Operators)**
-- [Arithmetic operators](02-Operators/01_arithmetic_operators.ipynb)
-- [Comparison operators](02-Operators/02_comparison_operators.ipynb)
-- [Logical operators](02-Operators/03_logical_operators.ipynb)
-- [Assignment operators](02-Operators/04_assignment_operators.ipynb)
-- [Bitwise operators](02-Operators/05_bitwise%20operators.ipynb)
-- [Operator precedence](02-Operators/06_operator_precedence.ipynb)
-- [Exercises](./02-Operators/07_exercises.ipynb)
-- [Solutions](./02-Operators/08_solutions.ipynb)
+## Estructura del curso
 
-**[Module 3: Control Flow Statements](./03-Control_flow_statements/)**
-- [Conditional statements (if, else, elif)](./03-Control_flow_statements/01_conditional_statements.ipynb)
-- [Nested conditionals](./03-Control_flow_statements/02_nested_conditionals.ipynb)
-- [Logical operators in conditionals](./03-Control_flow_statements/03_logical_operators_in_conditionals.ipynb)
-- [The ternary operator](./03-Control_flow_statements/04_the_therany_operator.ipynb)
-- [Exercises](./03-Control_flow_statements/05_exercises.ipynb)
-- [Solutions](./03-Control_flow_statements/06_solutions.ipynb)
+El curso está organizado en diferentes módulos, cada uno de los cuales cubre un tema específico.
 
-**[Module 4: Loops](./04-Loops)**
-- [While loop](04-Loops/01_while_loop.ipynb)
-- [For loop](04-Loops/02_for_loop.ipynb)
-- [Loop control statements (break, continue)](04-Loops/03_loop_control_statements.ipynb)
-- [Nested loops](04-Loops/04_nested_loops.ipynb)
-- [Looping through collections](04-Loops/05_looping_collections.ipynb)
-- [Exercises](./04-Loops/06_exercises.ipynb)
-- [Solutions](./04-Loops/07_solutions.ipynb)
+Puede comenzar con el primer módulo y avanzar en el curso a su propio ritmo. Asegúrate de leer las notas de la clase,
+pruebe los ejemplos y complete los ejercicios para solidificar su conocimiento.
 
-**[Module 5: Methods and Functions](./05-Methods_and_functions/)**
-- [Defining and calling functions](./05-Methods_and_functions/01_define_and_call_functions.ipynb)
-- [Returning values from functions](./05-Methods_and_functions/02_return_values.ipynb)
-- [Variable scope and global keyword](./05-Methods_and_functions/03_scope_and_global_keyword.ipynb)
-- [High order functions](./05-Methods_and_functions/04_high_order_functions.ipynb)
-- [Lambda functions](./05-Methods_and_functions/05_lambda_functions.ipynb)
-- [Exercises](./05-Methods_and_functions/06_exercises.ipynb)
-- [Solutions](./05-Methods_and_functions/07_solutions.ipynb)
+Dentro del repositorio, encontrarás la siguiente estructura:
 
-**[Module 6: Object-Oriented Programming](./06-Object_oriented_programming/)**
-- [Introduction to OOP](./06-Object_oriented_programming/01_introduction_to_OOP.ipynb)
-- [Classes and Objects](./06-Object_oriented_programming/02_classes_and_objects.ipynb)
-- [Encapsulation and Abstraction](./06-Object_oriented_programming/03_encapsulation_and_abstraction.ipynb)
-- [Inheritance](./06-Object_oriented_programming/04_inheritance.ipynb)
-- [Polymorphism](./06-Object_oriented_programming/05_polymorphism.ipynb)
-- [Exercises](./06-Object_oriented_programming/06_exercises.ipynb)
-- [Solutions](./06-Object_oriented_programming/07_solutions.ipynb)
+**[Módulo 0: Introducción a Python](./00-Introduccion_a_Python/)**
+- [Introducción a Python](./00-Introduccion_a_Python/01_introduccion_python.ipynb)
+- [Ejecución de programas Python](./00-Introduccion_a_Python/02_ejecutando_programas_python.ipynb)
+- [Sintaxis y sangría básicas](./00-Introduccion_a_Python/03_sintaxis_basica_y_sangria.ipynb)
+- [Código de impresión y comentarios](./00-Introduccion_a_Python/04_impresion_y_comentarios.ipynb)
+- [Entrada de usuario](./00-Introduccion_a_Python/05_entrada_de_usuario.ipynb)
+- [Ejercicios](./00-Introduccion_a_Python/06_ejercicios.ipynb)
+- [Soluciones](./00-Introduccion_a_Python/07_soluciones.ipynb)
 
-**[Module 7: Exception Handling](./07-Exception_handling/)**
-- [Understanding exceptions](./07-Exception_handling/01_understanding_exceptions.ipynb)
-- [Handling exceptions using try-except blocks](./07-Exception_handling/02_handling_exceptions_using_try-except_block.ipynb)
-- [Raising exceptions](./07-Exception_handling/03_raising_exceptions.ipynb)
-- [Exercises](./07-Exception_handling/04_exercises.ipynb)
-- [Solutions](./07-Exception_handling/05_solutions.ipynb)
+**[Módulo 1: Variables y tipos de datos](./01-Variables_y_tipos_de_datos/)**
+- [Variables y asignaciones](./01-Variables_y_tipos_de_datos/01_variables_y_asignaciones.ipynb)
+- [Tipos de datos numéricos (int, float)](./01-Variables_y_tipos_de_datos/02_tipos_de_datos_numericos.ipynb)
+- [Cadenas y manipulación de cadenas](./01-Variables_y_tipos_de_datos/03_cadenas.ipynb)
+- [Tipo de datos booleanos](./01-Variables_y_tipos_de_datos/04_tipos_de_datos_booleanos.ipynb)
+- [Conversión de tipos](./01-Variables_y_tipos_de_datos/05_conversion_de_tipos.ipynb)
+- [Trabajando con colecciones (listas, tuplas, conjuntos, diccionarios)](./01-Variables_y_tipos_de_datos/06_colecciones.ipynb)
+- [Ejercicios](./01-Variables_y_tipos_de_datos/07_ejercicios.ipynb)
+- [Soluciones](./01-Variables_y_tipos_de_datos/08_soluciones.ipynb)
 
-**[Module 8: Modules, Packages and Libraries](./08-Modules_packages_and_libraries/)**
-- [Importing and using modules](./08-Modules_packages_and_libraries/01_importing_and_using_modules.ipynb)
-- [Creating and organizing packages](./08-Modules_packages_and_libraries/02_creating_and_organizing_packages.ipynb)
+**[Módulo 2: Operadores](./02-Operadores)**
+- [Operadores aritméticos](02-Operadores/01_operadores_aritmeticos.ipynb)
+- [Operadores de comparación](02-Operadores/02_operadores_de_comparacion.ipynb)
+- [Operadores lógicos](02-Operadores/03_operadores_logicos.ipynb)
+- [Operadores de asignación](02-Operadores/04_operadores_de_asignacion.ipynb)
+- [Operadores bit a bit](02-Operadores/05_operadores_bit_a_bit.ipynb)
+- [Precedencia de operadores](02-Operadores/06_precedencia_de_operadores.ipynb)
+- [Ejercicios](./02-Operadores/07_ejercicios.ipynb)
+- [Soluciones](./02-Operadores/08_soluciones.ipynb)
 
-**[Module 9: File Manipulation](./09-File_manipulation/)**
-- [Reading and writing text files](./09-File_manipulation/01_reading_and_writing_files.ipynb)
-- [Working with file objects](./09-File_manipulation/02_working_with_file_objects.ipynb)
-- [File modes and file paths](./09-File_manipulation/03_file_modes_and_paths.ipynb)
-- [CSV and JSON file processing](./09-File_manipulation/04_csv_and_json_files.ipynb)
-- [Error handling with files](./09-File_manipulation/05_error_handling_with_files.ipynb)
-- [Exercises](./09-File_manipulation/06_exercises.ipynb)
-- [Solutions](./09-File_manipulation/07_solutions.ipynb)
+**[Módulo 3: Declaraciones de flujo de control](./03-Control_de_flujo/)**
+- [Declaraciones condicionales (if, else, elif)](./03-Control_de_flujo/01_conditional_statements.ipynb)
+- [Condicionales anidadas](./03-Control_de_flujo/02_nested_conditionals.ipynb)
+- [Operadores lógicos en condicionales](./03-Control_de_flujo/03_operadores_logicos_en_condicionales.ipynb)
+- [El operador ternario](./03-Control_de_flujo/04_operador_ternario.ipynb)
+- [Ejercicios](./03-Control_de_flujo/05_ejercicios.ipynb)
+- [Soluciones](./03-Control_de_flujo/06_solutions.ipynb)
 
-**[Module 10: Additional Python Modules](./10-Additional_Python_modules/)**
-- [Dates and times manipulation (datetime module)](./10-Additional_Python_modules/01_datetime_module.ipynb)
-- [Mathematical operations (math module)](./10-Additional_Python_modules/02_math_module.ipynb)
-- [Generate random numbers (random module)](./10-Additional_Python_modules/03_random_module.ipynb)
-- [Working with images (Pillow module)](./10-Additional_Python_modules/04_pillow_module.ipynb)
-- [Zip files (zipfile module)](./10-Additional_Python_modules/05_zipfile_module.ipynb)
-- [Regular expressions (re module)](./10-Additional_Python_modules/06_re_module.ipynb)
-- [Object serialization (pickle module)](./10-Additional_Python_modules/07_pickle_module.ipynb)
-- [Exercises](./10-Additional_Python_modules/08_exercises.ipynb)
-- [Solutions](./10-Additional_Python_modules/09_solutions.ipynb)
+**[Módulo 4: Bucles](./04-Bucles)**
+- [Mientras bucle](04-Bucles/01_bucle_while.ipynb)
+- [Para bucle](04-Bucles/02_bucle_for.ipynb)
+- [Declaraciones de control de bucle (romper, continuar)](04-Bucles/03_declaraciones_de_control_de_bucle.ipynb)
+- [Bucles anidados](04-Bucles/04_bucles_anidados.ipynb)
+- [Recorriendo colecciones](04-Bucles/05_bucles_en_colecciones.ipynb)
+- [Ejercicios](./04-Bucles/06_ejercicios.ipynb)
+- [Soluciones](./04-Bucles/07_soluciones.ipynb)
 
-**[Module 11: Advanced Concepts](./11-Advanced_concepts/)**
-- [Function and class decorators](./11-Advanced_concepts/01_decorators.ipynb)
-- [Iterators and generators](./11-Advanced_concepts/02_iterators_and_generators.ipynb)
-- [Recursion](./11-Advanced_concepts/03_recursion.ipynb)
-- [Debugging](./11-Advanced_concepts/04_debugging.ipynb)
-- [Code timming and optimization](./11-Advanced_concepts/05_code_timming_and_optimization.ipynb)
-- [Exercises](./11-Advanced_concepts/06_exercises.ipynb)
-- [Solutions](./11-Advanced_concepts/07_solutions.ipynb)
+**[Módulo 5: Métodos y Funciones](./05-Metodos_y_funciones/)**
+- [Definir y llamar funciones](./05-Metodos_y_funciones/01_definicion_de_funciones.ipynb)
+- [Alcance variable y palabra clave global](./05-Metodos_y_funciones/02_alcance_de_una_variable.ipynb)
+- [Funciones de alto orden](./05-Metodos_y_funciones/03_funciones_de_orden_superior.ipynb)
+- [Funciones Lambda](./05-Metodos_y_funciones/04_funciones_lambda.ipynb)
+- [Ejercicios](./05-Metodos_y_funciones/05_ejercicios.ipynb)
+- [Soluciones](./05-Metodos_y_funciones/06_soluciones.ipynb)
+- [Proyecto calificaciones](./05-Metodos_y_funciones/07_proyecto_calificaciones.ipynb)
+- [Solución proyecto calificaciones](./05-Metodos_y_funciones/08_solucion_proyecto_calificaciones.ipynb)
+- [Proyecto calculadora](./05-Metodos_y_funciones/09_proyecto_calculadora.ipynb)
+- [Solución Proyecto calculadora](./05-Metodos_y_funciones/10_solucion_proyecto_calculadora.ipynb)
 
-**[Module 12: Testing and Debugging](./12-Testing_and_debugging/)**
-- [Unit testing with unittest module](./12-Testing_and_debugging/01_unitest_module.ipynb)
-- [Test-driven development](./12-Testing_and_debugging/02_test_driven_development.ipynb)
-- [Debugging techniques and strategies](./12-Testing_and_debugging/03_debugging_techniques_and_strategies.ipynb)
-- [Handling common errors](./12-Testing_and_debugging/04_handling_common_errors.ipynb)
+**[Módulo 6: Programación Orientada a Objetos](./06-Programacion_orientada_a_objetos/)**
+- [Introducción a la POO](./06-Programacion_orientada_a_objetos/01_introduccion_a_poo.ipynb)
+- [Clases y Objetos](./06-Programacion_orientada_a_objetos/02_clases_y_objetos.ipynb)
+- [Encapsulación y Abstracción](./06-Programacion_orientada_a_objetos/03_encapsulacion_y_abstraccion.ipynb)
+- [Herencia](./06-Programacion_orientada_a_objetos/04_herencia.ipynb)
+- [Polimorfismo](./06-Programacion_orientada_a_objetos/05_polimorfismo.ipynb)
+- [Ejercicios](./06-Programacion_orientada_a_objetos/06_ejercicios.ipynb)
+- [Soluciones](./06-Programacion_orientada_a_objetos/07_soluciones.ipynb)
+
+**[Módulo 7: Manejo de excepciones](./07-Excepciones/)**
+- [Errores comunes](./07-Excepciones/01_errores_comunes.ipynb)
+- [Comprender excepciones](./07-Excepciones/02_comprender_excepciones.ipynb)
+- [Bloques try-except](./07-Excepciones/03_bloque_try_except.ipynb)
+- [Generar excepciones](./07-Excepciones/04_generar_excepciones.ipynb)
+- [Ejercicios](./07-Excepciones/05_ejercicios.ipynb)
+- [Soluciones](./07-Excepciones/06_solutions.ipynb)
+
+**[Módulo 8: Módulos, Paquetes y Librerias](./08-Modulos_paquetes_y_librerias/)**
+- [Importación y uso de módulos](./08-Modulos_paquetes_y_librerias/01_introduccion_a_modulos.ipynb)
+- [Creación y organización de paquetes](./08-Modulos_paquetes_y_librerias/02_crear_paquetes.ipynb)
+
+**[Módulo 9: Manipulación de archivos](./09-Manipulacion_de_archivos/)**
+- [Lectura y escritura de archivos de texto](./09-Manipulacion_de_archivos/01_leer_y_escribir_archivos_de_texto.ipynb)
+- [Trabajar con objetos de archivo](./09-Manipulacion_de_archivos/02_objetos_de_archivos.ipynb)
+- [Modos de archivo y rutas de archivo](./09-Manipulacion_de_archivos/03_modos_y_rutas_de_archivo.ipynb)
+- [Procesamiento de archivos CSV y JSON](./09-Manipulacion_de_archivos/04_archivos_csv_y_json.ipynb)
+- [Manejo de errores con archivos](./09-Manipulacion_de_archivos/05_excepciones_con_archivos.ipynb)
+- [Ejercicios](./09-Manipulacion_de_archivos/06_ejercicios.ipynb)
+- [Soluciones](./09-Manipulacion_de_archivos/07_soluciones.ipynb)
+
+**[Módulo 10: Módulos adicionales de Python](./10-Modulos_Python_adicionales/)**
+- [Manipulación de fechas y horas (módulo de fecha y hora)](./10-Modulos_Python_adicionales/01_modulo_datetime.ipynb)
+- [Operaciones matemáticas (módulo matemático)](./10-Modulos_Python_adicionales/02_modulo_math.ipynb)
+- [Generar números aleatorios (módulo aleatorio)](./10-Modulos_Python_adicionales/03_modulo_random.ipynb)
+- [Trabajando con imágenes (módulo Almohada)](./10-Modulos_Python_adicionales/04_modulo_pillow.ipynb)
+- [Archivos zip (módulo zipfile)](./10-Modulos_Python_adicionales/05_modulo_zipfile.ipynb)
+- [Expresiones regulares (módulo re)](./10-Modulos_Python_adicionales/06_modulo_re.ipynb)
+- [Serialización de objetos (módulo pickle)](./10-Modulos_Python_adicionales/07_modulo_pickle.ipynb)
+- [Ejercicios](./10-Modulos_Python_adicionales/08_ejercicios.ipynb)
+- [Soluciones](./10-Modulos_Python_adicionales/09_soluciones.ipynb)
+- [Proyecto tienda online](./10-Modulos_Python_adicionales/10_proyecto_tienda_online.ipynb)
+- [Solucion proyecto tienda online](./10-Modulos_Python_adicionales/11_proyecto_tienda_online_solucion.ipynb)
+
+**[Módulo 11: Conceptos Avanzados](./11-Conceptos_avanzados/)**
+- [Decoradores de funciones y clases](./11-Conceptos_avanzados/01_decoradores.ipynb)
+- [Iteradores y generadores](./11-Conceptos_avanzados/02_iteradores_y_generadores.ipynb)
+- [Recursión](./11-Conceptos_avanzados/03_recursividad.ipynb)
+- [Depuración](./11-Conceptos_avanzados/04_depuracion.ipynb)
+- [Timming y optimización de código](./11-Conceptos_avanzados/05_tiempo_y_optimizacion.ipynb)
+- [Ejercicios](./11-Conceptos_avanzados/06_ejercicios.ipynb)
+- [Soluciones](./11-Conceptos_avanzados/07_soluciones.ipynb)
+
+**[Módulo 12: Pruebas y depuración](./12-Pruebas_y_depuracion/)**
+- [Prueba unitaria con módulo unittest](./12-Pruebas_y_depuracion/01_modulo_unitest.ipynb)
+- [Desarrollo basado en pruebas](./12-Pruebas_y_depuracion/02_desarrollo_basadoi_en_pruebas.ipynb)
+- [Técnicas y estrategias de depuración](./12-Pruebas_y_depuracion/03_tecnicas_de_depuracion.ipynb)
