@@ -22,9 +22,9 @@ o desea agregar contenido nuevo, no dude en abrir un problema. Sus contribucione
 ¡Apóyenme para crear más materiales educativos!
 
 <p align="centro">
-     <a href="https://paypal.me/sergifelipribas"><img src="./Images/paypal_lg.png" alt="Paypal Logo" style="width:10%; margin-right: 20px;" ></a>
-     <a href="https://github.com/sergif-github"><img src="./Images/github_lg.png" alt="Github Logo" style="width:10%; margin-right: 20px ;"></a>
-     <a href="https://www.linkedin.com/in/sergifelipribas/"><img src="./Images/linkedin_lg.png" alt="Logotipo de Linkedin" style="width:10%;"> </a>
+     <a href="https://paypal.me/sergifelipribas"><img src="./Imagenes/paypal_lg.png" alt="Paypal Logo" style="width:10%; margin-right: 20px;" ></a>
+     <a href="https://github.com/sergif-github"><img src="./Imagenes/github_lg.png" alt="Github Logo" style="width:10%; margin-right: 20px ;"></a>
+     <a href="https://www.linkedin.com/in/sergifelipribas/"><img src="./Imagenes/linkedin_lg.png" alt="Logotipo de Linkedin" style="width:10%;"> </a>
 </p>
 
 
