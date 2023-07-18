@@ -115,17 +115,17 @@ Una vez hecho esto, JupyterLab debe instalarse en su sistema.
 
      Inicie JupyterLab ejecutando el siguiente comando: ```jupyter lab```. Esto abrirá JupyterLab en su navegador web predeterminado.
 
-### Google Colab (No se requieren instalaciones)
+- **Google Colab (No se requieren instalaciones)**
 
-Alternativamente, si prefiere una configuración sin problemas sin ninguna instalación en su máquina local, puede utilizar Google Colab.
-Google Colab proporciona un entorno basado en la nube en el que puede crear, ejecutar y colaborar en portátiles Jupyter sin necesidad de instalaciones locales.
-Google Colab proporciona bibliotecas preinstaladas, incluidos Python y paquetes de ciencia de datos populares como NumPy y Pandas. Puedes escribir directamente
-y ejecutar código en las celdas del cuaderno.
+     Alternativamente, si prefiere una configuración sin problemas sin ninguna instalación en su máquina local, puede utilizar Google Colab.
+     Google Colab proporciona un entorno basado en la nube en el que puede crear, ejecutar y colaborar en portátiles Jupyter sin necesidad de instalaciones locales.
+     Google Colab proporciona bibliotecas preinstaladas, incluidos Python y paquetes de ciencia de datos populares como NumPy y Pandas. Puedes escribir directamente
+     y ejecutar código en las celdas del cuaderno.
 
-Para acceder a Google Colab:
+     Para acceder a Google Colab:
 
-1. Abra Google Colab: Visite el sitio web de Google Colab utilizando cualquier navegador web.
-2. Crear un nuevo cuaderno: haga clic en "Nuevo cuaderno" para crear un nuevo cuaderno en blanco o elegir entre las plantillas existentes.
+     1. Abra Google Colab: Visite el sitio web de Google Colab utilizando cualquier navegador web.
+     2. Crear un nuevo cuaderno: haga clic en "Nuevo cuaderno" para crear un nuevo cuaderno en blanco o elegir entre las plantillas existentes.
 
 
 ### Archivos utilizados
